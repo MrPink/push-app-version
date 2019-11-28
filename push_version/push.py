@@ -27,7 +27,7 @@ from google.cloud import exceptions
 from google.cloud import storage
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--projects', required=True)
+parser.add_argument('--project', required=True)
 parser.add_argument('--version', required=True)
 
 
